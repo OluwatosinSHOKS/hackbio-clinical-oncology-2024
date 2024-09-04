@@ -2,7 +2,7 @@ Supervised Learning: A Basic Introduction
 Authors (@slack): Shekoni Oluwatosin (@OluwatosinF1)
 
 Github Repo: 
-https://github.com/OluwatosinSHOKS/hackbio-clinical-oncology-2024/blob/1e8c6d15e4b79a3a84c2d49fcff3af55bd4e7ba0/Supervised%20Learning%20-%20Shekoni%20Oluwatosin.md
+https://github.com/OluwatosinSHOKS/hackbio-clinical-oncology-2024/blob/main/Supervised%20Learning%20-%20Shekoni%20Oluwatosin.md
 
 Introduction
 
