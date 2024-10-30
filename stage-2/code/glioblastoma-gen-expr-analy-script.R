@@ -59,8 +59,8 @@ glioblastoma_data_group1 <- glioblastoma_data[, 1:5]  # Columns 1-5 are Group 1
 glioblastoma_data_group2 <- glioblastoma_data[, 6:10] # Columns 6-10 are Group 2
 
 # Calculate log fold change (logFC)
-glioblastoma_log_fold_change <- log2(rowMeans(glioblastoma_data_group2) + 0.5) - log2(
-  rowMeans(glioblastoma_data_group1) + 0.5)
+glioblastoma_log_fold_change <- log2(rowMeans(glioblastoma_data_group2)) - log2(
+  rowMeans(glioblastoma_data_group1))
 
 # Perform t-tests for each gene between Group 1 and Group 2
 glioblastoma_p_values <- apply(glioblastoma_data, 1, function(row) {
