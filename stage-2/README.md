@@ -38,7 +38,7 @@ identify groups of co-regulated genes and sample subtypes.
 4. **Identification of Differentially Expressed Genes:** Using the clusters, samples were divided into groups, and 
 log fold change was calculated to identify significantly upregulated and downregulated genes.
 
-   - **LogFC Formula:** `log2(groupB_mean + 0.5) - log2(groupA_mean + 0.5)`
+   - **LogFC Formula:** `log2(groupB_mean) - log2(groupA_mean)`
    - **p-value Calculation:** t-test to compare gene counts between groups.  
 
 5. **Functional Enrichment Analysis**: Conducted enrichment analysis to identify pathways associated with 
