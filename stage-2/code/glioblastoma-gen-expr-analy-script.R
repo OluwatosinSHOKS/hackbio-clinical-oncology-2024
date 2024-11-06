@@ -1,7 +1,7 @@
 ---
-  title: "Glioblastoma Gene Expression and Functional Enrichment Analysis"
-  author: "Authors: Shekoni Oluwatosin"
-  date: "2024-10-11"
+title: "Glioblastoma Gene Expression and Functional Enrichment Analysis"
+author: "Shekoni Oluwatosin"
+date: "2024-10-11"
 output: html_notebook
 ---
 
